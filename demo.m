@@ -2,7 +2,7 @@ clear all;
 close all;
 clc;
 
-filename='data/4.bmp';
+filename='data/3.bmp';
 [filepath,name,ext]=fileparts(filename);
 im=im2double(imread([filepath,'/',name,ext]));
 im = im(:,:,1:3);
